@@ -1,25 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Nav from './Nav';
+import Register from './Register';
+import {Grid} from "@material-ui/core";
+import chatImg from './chat1.png';
+import Messages from './Messages';
+import {
+  BrowserRouter as Router,
+
+  Route
+
+} from "react-router-dom";
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   <div>
+     
+   <Router>
+       <Route exact path="/mes">
+       <Messages />
+        </Route>
+        <Route exact path="/">
+        <Nav title="My Chat App" />
+     <div >
+     <Grid container spacing={2} >
+     <Grid item xs={6}>
+     <img className="chat-img" src={chatImg} alt="Chat" />
+       </Grid>
+       <Grid item xs={4}>
+       <Register />
+       </Grid>
+       </Grid>
+      
+       </div>
+        </Route>
+        </Router>
+     
+      
+        
+   </div>
   );
 }
 

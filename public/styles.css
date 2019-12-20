@@ -1,0 +1,78 @@
+header{
+    margin: -20px;
+    height: 60px;
+    padding-top: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+body{
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+
+}
+
+.title{
+    color: honeydew;
+    font-family: 'Fredoka One', cursive;
+  
+}
+
+.register{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+.reg{
+    width: 35%;
+    
+}
+
+.register-heading{
+    font-family: 'Fredoka One', cursive;
+}
+
+.have-account{
+    margin-left: 10px;
+}
+
+.login{
+    text-align: center;
+}
+
+
+.chat-img{
+    height: 300px;
+    margin: 100px;
+}
+
+footer {
+    
+    height: 100px;
+    padding-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.send{
+    height: 55px;
+}
+
+.logout{
+    height: 55px;
+    margin-left: 20px;
+    background-color: gray;
+}
+
+.message{
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lavenderblush;
+    width: 30%;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
